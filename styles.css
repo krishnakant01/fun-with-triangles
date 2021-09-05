@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+:root{
+    --color-dark-blue:#141932;
+    --white:#ffffff;
+    --nav-color:#8B5CF6;
+}
+body{
+    background-color:var(--color-dark-blue) ;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--white);
+    margin: 0px;
+}
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    
+}
+.list-non-bullet{
+    list-style: none;
+}
+.list-inline{
+    padding: 0rem 0.5rem;
+    display: inline;
+}
+.navigation{
+    background-color: var(--nav-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+/* .nav-brand{
+    font-weight: bold;
+    font-size: 1.05rem;
+} */
+.nav-items-align{
+    text-align: left;
+}
+.navigation .link{
+    color: white;
+}
+.navigation .link-active{
+    font-weight: bold;
+    font-size: larger;
+}
+.container{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.label-class{
+    font-size: larger;
+    text-align: center;
+    display: block;
+    margin-bottom: 1.5rem;
+}
+.input-class{
+    width: 90%;
+    height: 2rem;
+    display: block;
+    margin: auto;
+    margin-bottom: 1.5rem;
+    border-radius: 0.25rem;
+    padding: 0.25rem;
+    padding-left: 0.5rem;
+}
+.btn-is-triangle{
+    padding: 1rem 2.5rem;
+    width:50%;
+    background-color: var(--nav-color);
+    color: var(--white);
+    border: 1px solid;
+    border-radius: 0.25rem;   
+}
+.output {
+    border: 1px solid var(--white);
+    width: 40%;
+    margin: auto;
+    margin-top: 1.5rem;
+    height: 5vh;
+    padding: 1rem;
+    padding-top: 2rem;
+    color: black;
+    text-align: center;
+    font-weight:bold;
+    font-size: large;
+    background-color: var(--white);
+    border-radius: 0.25rem;
+}
