@@ -68,6 +68,17 @@ body {
     padding-top: 1.2rem;
 }
 
+.question-container {
+    width: 90%;
+    height: 15vh;
+    display: block;
+    margin: 1.5rem;
+    padding: 1rem;
+    border-radius: 0.25rem;
+    border: 2px solid var(--nav-color);
+
+}
+
 .label-class {
     font-size: larger;
     text-align: center;
@@ -95,6 +106,10 @@ body {
     border-radius: 0.25rem;
     font-size: medium;
 }
+
+/* input{
+    accent-color: var(--nav-color);
+} */
 
 .output {
     border: 1px solid var(--white);
