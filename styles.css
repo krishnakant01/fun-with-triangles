@@ -1,62 +1,83 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-:root{
-    --color-dark-blue:#141932;
-    --white:#ffffff;
-    --nav-color:#8B5CF6;
+
+:root {
+    --color-dark-blue: #141932;
+    --white: #ffffff;
+    --nav-color: #8B5CF6;
 }
-body{
-    background-color:var(--color-dark-blue) ;
+
+body {
+    background-color: var(--color-dark-blue);
     font-family: 'Montserrat', sans-serif;
     color: var(--white);
     margin: 0px;
 }
-.link{
+
+.link {
     text-decoration: none;
     padding: 0.5rem 1rem;
-    
+
 }
-.list-non-bullet{
+
+.list-non-bullet {
     list-style: none;
 }
-.list-inline{
+
+.list-inline {
     padding: 0rem 0.5rem;
     display: inline;
 }
-.navigation{
+
+.navigation {
     background-color: var(--nav-color);
-    color: white;
+    color: var(--white);
     padding: 1rem;
     border-bottom-left-radius: 1rem;
     border-top-right-radius: 1rem;
 }
-/* .nav-brand{
-    font-weight: bold;
-    font-size: 1.05rem;
-} */
-.nav-items-align{
+
+.nav-items-align {
     text-align: left;
 }
-.navigation .link{
-    color: white;
+
+.navigation .link {
+    color: var(--white);
 }
-.navigation .link-active{
+
+.navigation .link-active {
     font-weight: bold;
     font-size: larger;
 }
-.container{
+
+.container {
     width: 50%;
     margin: auto;
     text-align: center;
 }
-.label-class{
+
+.inner-container {
+    width: 90%;
+    height: 7vh;
+    display: block;
+    margin: 1.5rem;
+    border-radius: 0.25rem;
+    border: 2px solid var(--nav-color);
+    text-align: center;
+    font-size: x-large;
+    font-weight: 500;
+    padding-top: 1.2rem;
+}
+
+.label-class {
     font-size: larger;
     text-align: center;
     display: block;
     margin-bottom: 1.5rem;
 }
-.input-class{
+
+.input-class {
     width: 90%;
-    height: 2rem;
+    height: 5vh;
     display: block;
     margin: auto;
     margin-bottom: 1.5rem;
@@ -64,25 +85,28 @@ body{
     padding: 0.25rem;
     padding-left: 0.5rem;
 }
-.btn-is-triangle{
+
+.btn-is-triangle {
     padding: 1rem 2.5rem;
-    width:50%;
+    width: 50%;
     background-color: var(--nav-color);
     color: var(--white);
     border: 1px solid;
-    border-radius: 0.25rem;   
+    border-radius: 0.25rem;
+    font-size: medium;
 }
+
 .output {
     border: 1px solid var(--white);
     width: 40%;
     margin: auto;
     margin-top: 1.5rem;
-    height: 5vh;
+    height: 3vh;
     padding: 1rem;
     padding-top: 2rem;
     color: black;
     text-align: center;
-    font-weight:bold;
+    font-weight: bold;
     font-size: large;
     background-color: var(--white);
     border-radius: 0.25rem;
