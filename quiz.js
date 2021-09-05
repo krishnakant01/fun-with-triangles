@@ -14,7 +14,7 @@ function calculateScore() {
         }
         i += 1;
     }
-    outputDivQuiz.innerText = "Score = " + score;
+    outputDivQuiz.innerText = "Your Score = " + score;
 }
 
 buttonSubmit.addEventListener("click", calculateScore);
